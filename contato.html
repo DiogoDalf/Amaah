@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>AMAAH-SP Associação de Mãe e Amigos do Autista de Hortolândia</title>
+		<meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">
+
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Bikcraft - Bicicletas Personalizadas"/>
+		<meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte."/>
+		<meta property="og:url" content="http://bikcraft.com"/>
+		<meta property="og:image" content="http://bikcraft.com/img/og-image.png"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<link rel="stylesheet" href="css/style-raw.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/sobre.css">
+		<link rel="stylesheet" href="css/responsivo.css">
+		<link rel="stylesheet" href="css/contato.css">
+
+		<script>document.documentElement.classList.add("js");</script>
+	</head>
+	<body>
+
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="grid-4">
+					<img src="img/logo1.jpg" alt="Bikcraft">
+				</a>
+				<nav class="grid-12 header_menu">
+					<ul>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="galeria.html">Galeria</a></li>
+						<li><a href="contato.html">Contato</a></li>
+						<li><a href="contribuição.html">Contribuição</a></li>
+						<li><a href="portal.html">Transparência</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="introducao-interna interna_contato">
+			<div class="container">
+				<h1 data-anime="400" class="fadeInDown">Contato</h1>
+				<p data-anime="800" class="fadeInDown">Entre em contato com a AMAAH-SP</p>
+			</div>
+		</section>
+
+		<section class="contato container fadeInDown" data-anime="1200">
+			<form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" required>
+				<label for="email">E-mail</label>
+				<input type="email" id="email" name="email" required>
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" name="telefone">
+
+				<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+				<button id="enviar" name="enviar" type="submit" class="btncontato">Enviar</button>
+			</form>
+
+			<div class="contato_dados grid-8">
+				<h3>Dados</h3>
+				<span>(19) 99346-5761</span>
+				
+				<span>amaahortolandia@gmail.com</span>
+				<span>Hortolândia - São Paulo</span>
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook1.svg" alt="Facebook AMAAH-SP"></a></li>
+					<li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram1.svg" alt="Instagram AMAAH-SP"></a></li>
+					<li><a href="whatsapp.com" target="_blank"><img src="img/redes-sociais/whatsapp1.svg" alt="Whatsapp AMAAH-SP"></a></li>
+					<li><a href="http://Telegram.com" target="_blank"><img src="img/redes-sociais/telegram.svg" alt="Telegram AMAAH-SP"></a></li>
+				</ul>
+			</div>
+		</section>
+
+
+
+
+
+
+		<section  class="quebra">
+			
+			<img src="img/fita.svg" alt="Fita autismo">
+
+		<blockquote >
+			<p>A diferença está nos olhos de quem vê</p>
+			<cite>AMAAH-SP</cite>
+		</blockquote>
+
+		</section>
+
+		<footer>
+			<div class="footer">
+				<div class="container">
+
+					<div class="grid-8 footer_historia">
+						<h3>Nossa História</h3>
+						<p> No ano de 2020 uma mãe resolveu colocar em prática um sonho que tinha há muitos anos.
+							Foi à procura de outros pais que compartilhasse do mesmo sonho. Dia 16 de setembro a
+							Associação de Mães e Amigos do Autista de Hortolândia se torna realidade. A AMAAH-SP é uma
+							Associação sem fins lucrativos, que tem feito suas ações com as famílias para que elas possam ter
+							um atendimento qualificado para o seu familiar. </p>
+					</div>
+
+					<div class="grid-4 footer_contato">
+						<h3>Contato</h3>
+						<ul>
+							<li>-(19)99346-5761</li>
+							<li>- amaahortolandia@gmail.com</li>
+							<li>- Hortolândia - SP</li>
+						</ul>
+					</div>
+
+					<div class="grid-4 footer_redes">
+						<h3>Contato</h3>
+						<ul>
+							<li><a href="https://www.facebook.com/Associa%C3%A7%C3%A3o-de-M%C3%A3es-e-Amigos-do-Autista-de-Hortol%C3%A2ndia-S%C3%A3o-Paulo-123191816206667/" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook Bikcraft"></a></li>
+							<li><a href="https://instagram.com/amaahsp?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram Bikcraft"></a></li>
+							<li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/whatsapp.svg" alt="Twitter Bikcraft"></a></li>
+							<li><a href="http://Telegram.com" target="_blank"><img src="img/redes-sociais/telegram1.svg" alt="Telegram AMAAH-SP"></a></li>
+
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="copy">
+				<div class="container">
+					<p class="grid-16">AMAAH-SP 2022 - Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</footer>
+
+	<!-- JavaScript -->
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+	<!-- JavaScript -->
+
+	</body>
+</html>
