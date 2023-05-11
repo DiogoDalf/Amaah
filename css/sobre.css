@@ -1,0 +1,31 @@
+.interna_sobre {
+	color: rgb(255, 255, 255);
+	background: url("../img/bg-contato1.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.missao_sobre {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.missao_sobre p {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 60px;
+}
+
+.missao_sobre ul li {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.foto-equipe {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	background: #0088cc;
+}
+
